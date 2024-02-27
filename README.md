@@ -22,9 +22,6 @@ This libary allows you to connect a microcontroller directly to the IR input of 
 When connecting your controller to such an input, it's probably best if you only connect the data line (*ring*) and ground (*sleeve*), the current requirement of the microcontroller is likely too high for the device to provide.
 
 This library cannot be used to control an IR LED directly, since there modulation is required.
-There are multiple libraries out there that can be used to control IR LEDs from Arduino:
-- https://github.com/Arduino-IRremote/Arduino-IRremote
-- https://github.com/ukw100/IRMP
 
 ## Pinouts
 
